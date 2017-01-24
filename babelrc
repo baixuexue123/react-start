@@ -1,0 +1,20 @@
+{
+	"presets": ["es2015", "react"],
+
+    "plugins": ["transform-react-jsx"],
+
+    "ignore": [
+        "foo.js",
+	    "bar/**/*.js"
+    ]
+}
+
+# presets 是预设好的转码规则或组织, 如es2015, react; 通常使用presets就行了
+
+# 如果不想使用预设好的, 或你的代码中只使用了部分新特性,
+# 可以用plugins 来指定特定的转码插件, 如：
+# transform-es2015-constants
+# transform-es2015-block-scoping
+# transform-es2015-arrow-functions
+
+# .babelrc 文件所在目录的 子目录中使用babel命令时， 这个配置文件也起作用

@@ -3,4 +3,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// babel entry1.js -o bundle.js
+// babel entry1.js -o bundle.js --presets react
