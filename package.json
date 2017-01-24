@@ -1,7 +1,7 @@
 {
   "name": "react-start",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "autoprefixer": "^6.6.1",
     "babel-cli": "^6.18.0",
