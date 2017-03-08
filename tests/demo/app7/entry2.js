@@ -41,3 +41,5 @@ ReactDOM.render(
   />,
   document.getElementById('root')
 );
+
+// babel entry2.js -o bundle.js --presets react
